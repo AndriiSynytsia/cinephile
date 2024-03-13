@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f28e2a4-860b-4737-a1e0-8823ada88b10" name="Changes" comment="Initializing the Maven project, added dependencies Sprin JDBC, Spring Web MVC, PostgreSQL, Servlet-API, JSTL">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinephile/dbmanagement/controllers/CinephileInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinephile/dbmanagement/controllers/MoviesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/movie-list.jsp" afterDir="false" />
+    <list default="true" id="0f28e2a4-860b-4737-a1e0-8823ada88b10" name="Changes" comment="Created CinephileInitializer class for dispatching servlets">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinephile/dbmanagement/config/CinephileConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinephile/dbmanagement/controllers/CinephileInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cinephile/dbmanagement/config/CinephileInitializer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,11 +136,38 @@
       <option name="project" value="LOCAL" />
       <updated>1710366328346</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created MoviesController class for handling HTTP requests">
+      <option name="closed" value="true" />
+      <created>1710366697236</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710366697236</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added movie-list.jsp as a view to the movie list">
+      <option name="closed" value="true" />
+      <created>1710366868115</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710366868115</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Created CinephileInitializer class for dispatching servlets">
+      <option name="closed" value="true" />
+      <created>1710367009116</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710367009116</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initializing the Maven project, added dependencies Sprin JDBC, Spring Web MVC, PostgreSQL, Servlet-API, JSTL" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initializing the Maven project, added dependencies Sprin JDBC, Spring Web MVC, PostgreSQL, Servlet-API, JSTL" />
+    <MESSAGE value="Created MoviesController class for handling HTTP requests" />
+    <MESSAGE value="Added movie-list.jsp as a view to the movie list" />
+    <MESSAGE value="Created CinephileInitializer class for dispatching servlets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created CinephileInitializer class for dispatching servlets" />
   </component>
 </project>

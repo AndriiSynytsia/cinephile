@@ -1,4 +1,4 @@
-package com.cinephile.dbmanagement.controllers;
+package com.cinephile.dbmanagement.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 public class CinephileInitializer extends AbstractAnnotationConfigDispatcherServletInitializer{
@@ -10,8 +10,7 @@ public class CinephileInitializer extends AbstractAnnotationConfigDispatcherServ
 
     @Override
     protected Class<?>[] getServletConfigClasses() {
-//        return new Class[0];
-        return null;
+        return new Class[]{CinephileConfig.class};
     }
 
     @Override
