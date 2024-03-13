@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f28e2a4-860b-4737-a1e0-8823ada88b10" name="Changes" comment="Created CinephileInitializer class for dispatching servlets">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinephile/dbmanagement/config/CinephileConfig.java" afterDir="false" />
+    <list default="true" id="0f28e2a4-860b-4737-a1e0-8823ada88b10" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinephile/dbmanagement/controllers/CinephileInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cinephile/dbmanagement/config/CinephileInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinephile/dbmanagement/config/CinephileConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cinephile/dbmanagement/config/CinephileConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinephile/dbmanagement/config/CinephileInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cinephile/dbmanagement/config/CinephileInitializer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +34,10 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2deMB0Hb7DBD8LhGQ4KsfC6Qc8W" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,10 +54,14 @@
     "Smart Tomcat.Tomcat.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+    "last_opened_file_path": "C:/IntelliJ IDEA/projects/Cinephile/src/main/webapp",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Smart Tomcat.Tomcat">
     <configuration name="cinephile [install]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -96,7 +107,7 @@
       <option name="extraClassPath" value="" />
       <option name="tomcatInfo">
         <TomcatInfo>
-          <option name="name" value="Apache Tomcat/10.1.19 (2)" />
+          <option name="name" value="Apache Tomcat/10.1.19" />
           <option name="path" value="$USER_HOME$/Downloads/apache-tomcat-10.1.19-windows-x64/apache-tomcat-10.1.19" />
           <option name="version" value="10.1.19.0" />
         </TomcatInfo>
@@ -160,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710367009116</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Created CinephileConfig class for Enabling Web Mvc packages and project component scan">
+      <option name="closed" value="true" />
+      <created>1710367568154</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710367568154</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -168,6 +187,7 @@
     <MESSAGE value="Created MoviesController class for handling HTTP requests" />
     <MESSAGE value="Added movie-list.jsp as a view to the movie list" />
     <MESSAGE value="Created CinephileInitializer class for dispatching servlets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created CinephileInitializer class for dispatching servlets" />
+    <MESSAGE value="Created CinephileConfig class for Enabling Web Mvc packages and project component scan" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created CinephileConfig class for Enabling Web Mvc packages and project component scan" />
   </component>
 </project>
